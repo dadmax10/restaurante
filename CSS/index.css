@@ -1,0 +1,32 @@
+body {
+    overflow-x: hidden;
+}
+
+.cabezera {
+    background-image: url(/IMG/restaurante-fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding-top: 10em;
+}
+
+.item-img {
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img-productos {
+    object-fit: cover;
+    margin-left: 15px;
+    width: 600px;
+    height: 470px;
+}
+
+.img-productos:hover {
+    box-shadow: 1px 3px 15px 0 #2fc;
+}
+
+.nav-item {
+    translate: 2s;
+}
